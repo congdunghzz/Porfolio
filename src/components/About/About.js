@@ -38,10 +38,10 @@ const About = () => {
               </a>
             )}
 
-            {social.linkedin && (
+            {social.facebook && (
               <a
-                href={social.linkedin}
-                aria-label='linkedin'
+                href={social.facebook}
+                aria-label='facebook'
                 className='link link--icon'
               >
                 <LinkedInIcon />
