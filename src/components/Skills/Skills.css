@@ -10,3 +10,11 @@
 .skills__list-item {
   margin: 0.5em;
 }
+
+.skill-img {
+  width: 50px; /* Điều chỉnh kích thước ảnh */
+  height: 50px; /* Điều chỉnh kích thước ảnh */
+  /* border-radius: 50%; Tạo viền bo tròn */
+  object-fit: cover; /* Đảm bảo ảnh không bị kéo ra khi bo tròn */
+}
+

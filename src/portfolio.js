@@ -9,10 +9,10 @@ const about = {
   name: 'Le Cong Dung',
   role: 'Back-end Developer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    "I am an enthusiastic Java and Spring Boot intern. I'm currently seeking opportunities to apply my knowledge and enhance my skills in software development. With a passion for learning and a proactive attitude, I aim to contribute to projects and learn from industry experts",
   resume: 'https://drive.google.com/file/d/1uWsEyiMGqMvU7z2kTc0xU-6wjXLWTmCk/view?usp=sharing',
   social: {
-    facebook: 'https://linkedin.com',
+    facebook: 'https://www.facebook.com/profile.php?id=100011008001906',
     github: 'https://github.com/congdunghzz',
   },
 }
@@ -21,46 +21,41 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Tech Central',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    stack: ['Spring Boot', 'Spring Security', 'JWT Authentication', 'MySQL' ,'React', 'Axios' ,'Bootstrap 5'],
+    sourceCode: 'https://github.com/congdunghzz/Tech_central',
+    livePreview: 'https://youtu.be/56HuC1PIOsE?si=femp4e9l0BF6HqoT',
   },
   {
-    name: 'Project 2',
+    name: 'Feelbook',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    stack: ['Spring MVC', 'Spring Data JDBC' ,'Jsp Servlet', 'MySQL' ,'React'],
+    sourceCode: 'https://github.com/congdunghzz/Feelbook',
+    livePreview: 'https://youtu.be/EI1EbeTKBHU?si=lkxBzvvfMHinWp6J',
   },
-  {
-    name: 'Project 3',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
+  
 ]
 
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
+  'Java',
   'JavaScript',
-  'TypeScript',
+  'SQL',
+  'Python',
+  'Spring Boot',
+  'Spring Security',
+  'Spring Framework',
+  'Spring Cloud',
   'React',
-  'Redux',
-  'SASS',
-  'Material UI',
+  'Bootstrap',
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'GitHub',
+  'Docker',
+  'Postman',
 ]
 
 const contact = {
