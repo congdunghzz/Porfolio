@@ -1,7 +1,7 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: '#', // change after
-  title: 'JS.',
+  title: 'CD.',
 }
 
 const about = {
