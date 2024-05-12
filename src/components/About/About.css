@@ -29,6 +29,14 @@
   margin-right: 1em;
 }
 
+.about-avatar {
+  width: 20rem; /* Điều chỉnh kích thước ảnh */
+  height: 20rem; /* Điều chỉnh kích thước ảnh */
+  border-radius: 50%; 
+  object-fit: cover; /* Đảm bảo ảnh không bị kéo ra khi bo tròn */
+  margin-bottom: 16px;
+}
+
 @media (max-width: 600px) {
   .app .about {
     align-items: flex-start;

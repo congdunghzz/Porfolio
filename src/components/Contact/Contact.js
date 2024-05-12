@@ -7,11 +7,15 @@ const Contact = () => {
   return (
     <section className='section contact center' id='contact'>
       <h2 className='section__title'>Contact</h2>
-      <a href={`mailto:${contact.email}`}>
-        <span type='button' className='btn btn--outline'>
-          Email me
-        </span>
+      <h6>Email:</h6>
+      <a
+        href='/#'
+        className='link footer__link'
+      >
+        lecongdung3010@gmail.com
+
       </a>
+      
     </section>
   )
 }

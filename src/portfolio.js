@@ -22,6 +22,7 @@ const projects = [
   // if there are no projects, Projects section won't show up
   {
     name: 'Tech Central',
+    image: '/techcentral.png',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
     stack: ['Spring Boot', 'Spring Security', 'JWT Authentication', 'MySQL' ,'React', 'Axios' ,'Bootstrap 5'],
@@ -30,9 +31,10 @@ const projects = [
   },
   {
     name: 'Feelbook',
+    image: '/feelbook.png',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['Spring MVC', 'Spring Data JDBC' ,'Jsp Servlet', 'MySQL' ,'React'],
+    stack: ['Spring MVC', 'Spring Data JDBC' ,'Jsp Servlet', 'MySQL' ,'Bootstrap'],
     sourceCode: 'https://github.com/congdunghzz/Feelbook',
     livePreview: 'https://youtu.be/EI1EbeTKBHU?si=lkxBzvvfMHinWp6J',
   },

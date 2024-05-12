@@ -7,7 +7,8 @@ const ProjectContainer = ({ project }) => (
   <div className='project'>
     <h3>{project.name}</h3>
 
-    <p className='project__description'>{project.description}</p>
+    {/* <p className='project__description'>{project.description}</p> */}
+    <img alt='Avatar' src={`${window.location.origin}/${project.image}`} className='project-image'/>
     {project.stack && (
       <ul className='project__stack'>
         {project.stack.map((item) => (

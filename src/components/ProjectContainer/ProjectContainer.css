@@ -31,3 +31,10 @@
 .project .link--icon {
   margin-left: 0.5em;
 }
+
+.project-image{
+  /* width: 5rem; Điều chỉnh kích thước ảnh */
+  height: 15rem; /* Điều chỉnh kích thước ảnh */
+  object-fit: cover; /* Đảm bảo ảnh không bị kéo ra khi bo tròn */
+  margin-top: 16px;
+}
