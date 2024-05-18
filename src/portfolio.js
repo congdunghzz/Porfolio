@@ -9,7 +9,7 @@ const about = {
   name: 'Le Cong Dung',
   role: 'Back-end Developer',
   description:
-    "I am an enthusiastic Java and Spring Boot intern. I'm currently seeking opportunities to apply my knowledge and enhance my skills in software development. With a passion for learning and a proactive attitude, I aim to contribute to projects and learn from industry experts",
+    "I am an enthusiastic Java and Spring Boot intern. I'm currently seeking opportunities to apply my knowledge and enhance my skills in software development. With a passion for learning and a proactive attitude, I aim to contribute to projects and learn from industry experts.",
   resume: 'https://drive.google.com/file/d/1uWsEyiMGqMvU7z2kTc0xU-6wjXLWTmCk/view?usp=sharing',
   social: {
     facebook: 'https://www.facebook.com/profile.php?id=100011008001906',
@@ -22,7 +22,7 @@ const projects = [
   // if there are no projects, Projects section won't show up
   {
     name: 'Tech Central',
-    image: '/techcentral.png',
+    image: 'https://congdunghzz.github.io/Porfolio/techcentral.png',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
     stack: ['Spring Boot', 'Spring Security', 'JWT Authentication', 'MySQL' ,'React', 'Axios' ,'Bootstrap 5'],
@@ -31,7 +31,7 @@ const projects = [
   },
   {
     name: 'Feelbook',
-    image: '/feelbook.png',
+    image: 'https://congdunghzz.github.io/Porfolio/feelbook.png',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
     stack: ['Spring MVC', 'Spring Data JDBC' ,'Jsp Servlet', 'MySQL' ,'Bootstrap'],

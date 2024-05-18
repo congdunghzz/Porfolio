@@ -9,7 +9,7 @@ const Contact = () => {
       <h2 className='section__title'>Contact</h2>
       <h6>Email:</h6>
       <a
-        href='/#'
+        href='#/'
         className='link footer__link'
       >
         lecongdung3010@gmail.com

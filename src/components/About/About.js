@@ -7,7 +7,7 @@ const About = () => {
   const { name, role, description, resume, social } = about
   return (
     <div className='about center'>
-      <img alt='Avatar' src={`${window.location.origin}Porfolio/cv-2.jpg`} className='about-avatar'/>
+      <img alt='Avatar' src="https://congdunghzz.github.io/Porfolio/cv-2.jpg" className='about-avatar'/>
       {name && (
         <h1>
           Hi, I am <span className='about__name'>{name}.</span>
