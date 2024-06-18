@@ -52,6 +52,8 @@ const skills = [
   'Spring Security',
   'Spring Framework',
   'Spring Cloud',
+  'Spring WebSocket',
+  'Spring Redis Cache',
   'React',
   'Bootstrap',
   'Git',
@@ -62,7 +64,7 @@ const skills = [
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'lecondung3010@mail.com',
+  email: 'lecongdung3010@mail.com',
 }
 
 export { header, about, projects, skills, contact }
